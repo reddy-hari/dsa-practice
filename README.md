@@ -36,10 +36,16 @@ Click Connect.
 ### API Endpoints
 
 GET all items:
-`GET http://localhost:8081/api/items`
+
+```bash
+GET http://localhost:8081/api/items
+```
 
 GET item by ID:
-`GET http://localhost:8081/api/items/{id}`
+
+```bash
+GET http://localhost:8081/api/items/{id}
+```
 
 POST create new item:
 
@@ -66,4 +72,7 @@ json
 ```
 
 DELETE item by ID:
+
+```bash
 `DELETE http://localhost:8081/api/items/{id}`
+```
