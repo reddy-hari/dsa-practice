@@ -1,6 +1,7 @@
-# Top 25 Spring Boot Interview Questions and Answers
+# Spring Boot Interview Questions and Answers
 
 ## Table of Contents
+
 1. [What is Spring Boot?](#what-is-spring-boot)
 2. [What are the key features of Spring Boot?](#key-features)
 3. [Explain the Spring Boot Starter concept.](#spring-boot-starter)
@@ -48,4 +49,3 @@ Spring Boot offers several key features, including:
 **Answer:** These features make Spring Boot a popular choice for developing Spring applications.
 
 ... (Continue the list for other questions and answers) ...
-

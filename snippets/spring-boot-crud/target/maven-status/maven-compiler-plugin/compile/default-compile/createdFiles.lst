@@ -1,0 +1,4 @@
+com/crud/controller/ItemController.class
+com/crud/Application.class
+com/crud/repository/ItemRepository.class
+com/crud/model/Item.class
