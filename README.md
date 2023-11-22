@@ -28,9 +28,9 @@ The H2 Database Console is accessible for development purposes. Follow the steps
 JDBC URL: jdbc:h2:~/test
 Username: sa
 Password: password
-Click Connect.
 ```
 
+- Click Connect.
 - You can now interact with the H2 Database Console.
 
 ### API Endpoints
