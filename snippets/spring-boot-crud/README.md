@@ -22,10 +22,10 @@ The H2 Database Console is accessible for development purposes. Follow the steps
 
 - Open a web browser.
 - Go to the H2 Console URL at `http://localhost:8081/h2-console`
-- Configure the following settings in the H2 Console login form:
+- Configure the following settings in the H2 Console login form (while making sure there exists a path on the dev machine):
 
 ```bash
-JDBC URL: jdbc:h2:~/test
+JDBC URL: jdbc:h2:~/dev-configs/item-test-db/test
 Username: sa
 Password: password
 ```

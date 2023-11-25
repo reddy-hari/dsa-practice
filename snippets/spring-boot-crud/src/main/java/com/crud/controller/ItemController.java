@@ -25,12 +25,13 @@ public class ItemController {
     @Autowired
     private ItemRepository itemRepository;
 
+    // Fetch all items
     @GetMapping
     public List<Item> getAllItems() {
         return itemRepository.findAll();
     }
 
-    // Fetch all items
+    // Fetch item by ID
     @GetMapping("/{id}")
     public ResponseEntity<Item> getItemById(@PathVariable Long id) {
         Optional<Item> optionalItem = itemRepository.findById(id);
