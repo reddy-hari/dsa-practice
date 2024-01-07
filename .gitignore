@@ -10,3 +10,6 @@ node_modules/
 # Ignore Editor/IDE specific files
 .vscode/
 .idea/
+
+# Ignore the work-in-progress folder for pushes
+wip/
