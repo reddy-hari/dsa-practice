@@ -1,0 +1,30 @@
+# Top-most EditorConfig file
+root = true
+
+# Indentation settings
+[*]
+indent_style = space
+indent_size = 2
+
+# Use 4 spaces for Markdown files
+[*.md]
+indent_size = 4
+
+# Set the character limit (ruler) to 80 characters
+[*.js]
+max_line_length = 120
+[*.jsx]
+max_line_length = 80
+[*.ts]
+max_line_length = 80
+[*.tsx]
+max_line_length = 80
+[*.html]
+max_line_length = 80
+[*.css]
+max_line_length = 80
+
+# Trim trailing whitespaces and ensure a newline at the end of files
+[*.{js,jsx,ts,tsx,md,html,css}]
+trim_trailing_whitespace = true
+insert_final_newline = true
